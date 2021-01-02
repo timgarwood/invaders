@@ -1,0 +1,74 @@
+{
+  "selectTextureName" :  "sprites\\ships\\ship1small",
+  "menuDefinitions": [
+    {
+      "name": "root",
+      "spaceBetweenMenuItems": 200,
+      "spaceBetweenMessages": 20,
+      "messageTextures": [
+      ],
+      "menuItems": [
+        {
+          "textureName": "menu\\new-game",
+          "action": "Navigate",
+          "menuName" :  "newGameAreYouSure"
+        },
+        {
+          "textureName": "menu\\quit-game",
+          "action": "Navigate",
+          "menuName" :  "quitGameAreYouSure"
+        },
+      ]
+    },
+    {
+      "name": "newGameAreYouSure",
+      "spaceBetweenMenuItems": 100,
+      "spaceBetweenMessages": 20,
+      "messageTextures": [
+        "menu\\new-game",
+        "menu\\are-you-sure"
+      ],
+      "menuItems": [
+        {
+          "textureName": "menu\\yes",
+          "action": "NewGame"
+        },
+        {
+          "textureName": "menu\\no",
+          "action": "Navigate",
+          "menuName": "root"
+        },
+        {
+          "textureName": "menu\\back",
+          "action": "Navigate",
+          "menuName": "root"
+        }
+      ]
+    },
+    {
+      "name": "quitGameAreYouSure",
+      "spaceBetweenMenuItems": 100,
+      "spaceBetweenMessages": 20,
+      "messageTextures": [
+        "menu\\quit-game",
+        "menu\\are-you-sure"
+      ],
+      "menuItems": [
+        {
+          "textureName": "menu\\yes",
+          "action": "QuitGame"
+        },
+        {
+          "textureName": "menu\\no",
+          "action": "Navigate",
+          "menuName": "root"
+        },
+        {
+          "textureName": "menu\\back",
+          "action": "Navigate",
+          "menuName": "root"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[Bb]in/*
+*.obj
+*.pdf
+*.user
+*.vspscc
+*.vsscc
+*.suo
+*.bak
+*.cache
+*.log
+*.lib
+obj/
+packages/

@@ -1,0 +1,76 @@
+﻿[
+    {
+      "name": "Minimap",
+      "componentTypeName": "Invaders.Hud.Minimap",
+      "hAlignment": "Left",
+      "vAlignment": "Bottom",
+      "horizontalPercentage": 0,
+      "verticalPercentage": 0,
+      "width": 200,
+      "height": 200,
+      "alienWidth": 5,
+      "alienHeight" :5 
+    },
+    {
+      "name": "PlayerHealth",
+      "componentTypeName": "Invaders.Hud.PlayerHealthBar",
+      "fontName": "Default2",
+      "hAlignment": "Center",
+      "vAlignment": "Bottom",
+      "horizontalPercentage": 0,
+      "verticalPercentage": 0,
+      "textTemplate": "HP: {health}",
+      "width": 200,
+      "height": 40
+    },
+  {
+    "name": "SelectedWeapon",
+    "componentTypeName": "Invaders.Hud.SelectedWeapon",
+    "fontName": "Default2",
+    "hAlignment": "Right",
+    "vAlignment": "Bottom",
+    "horizontalPercentage": 0.05,
+    "verticalPercentage": 0.1,
+    "scale": 0.1,
+    "width": 200,
+    "height": 30
+  },
+  {
+    "name": "RemainingAmmo",
+    "componentTypeName": "Invaders.Hud.RemainingAmmo",
+    "fontName": "Default2",
+    "hAlignment": "Right",
+    "vAlignment": "Bottom",
+    "horizontalPercentage": 0,
+    "verticalPercentage": 0,
+    "textTemplate": "Ammo: {remainingAmmo}",
+    "width": 200,
+    "height": 30
+  },
+  {
+    "name": "LivesRemaining",
+    "componentTypeName": "Invaders.Hud.LivesRemaining",
+    "fontName": "Default2",
+    "hAlignment": "Left",
+    "vAlignment": "Top",
+    "horizontalPercentage": 0,
+    "verticalPercentage": 0,
+    "textTemplate": "Lives: {livesRemaining}",
+    "width": 200,
+    "height": 30
+  },
+  {
+    "name": "TotalScore",
+    "componentTypeName": "Invaders.Hud.TotalScore",
+    "fontName": "Default2",
+    "hAlignment": "Left",
+    "vAlignment": "Top",
+    "horizontalPercentage": 0,
+    "verticalPercentage": 0.035,
+    "textTemplate": "Score: {totalScore}",
+    "width": 200,
+    "height": 30
+  }
+
+
+]

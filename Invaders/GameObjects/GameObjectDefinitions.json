@@ -1,0 +1,218 @@
+[
+    {
+      "type" :  "Game1.AlienDefinition",
+      "name": "Alien1",
+      "textureName": "sprites\\ships\\alien1-transparent",
+      "physicsProperties": {
+          "density": 1.0,
+          "friction": 0.3
+      },
+      "scale": 0.25,
+      "moveImpulse": 0.0075,
+      "decisionFrequencySec": 0.1,
+      "maxSpeed": 5,
+      "alienTurnVelocityDecrement": 1,
+      "hp": 100
+    },
+    {
+      "type" :  "Game1.AlienDefinition",
+      "name": "Alien2",
+      "textureName": "sprites\\ships\\alien2-transparent",
+      "physicsProperties": {
+          "density": 1.0,
+          "friction": 0.3
+      },
+      "scale": 0.25,
+      "moveImpulse": 0.0075,
+      "decisionFrequencySec": 1.0,
+      "maxSpeed": 5,
+      "alienTurnVelocityDecrement": 1,
+      "hp": 100
+    },
+    {
+      "type" :  "Game1.AlienDefinition",
+      "name": "Alien3",
+      "textureName": "sprites\\ships\\alien3-transparent",
+      "physicsProperties": {
+          "density": 1.0,
+          "friction": 0.3
+      },
+      "scale": 0.25,
+      "moveImpulse": 0.0075,
+      "decisionFrequencySec": 1.0,
+      "maxSpeed": 5,
+      "alienTurnVelocityDecrement": 1,
+      "hp": 100
+    },
+    {
+      "type" :  "Game1.AlienDefinition",
+      "name": "Alien4",
+      "textureName": "sprites\\ships\\alien4-transparent",
+      "scale": 0.25,
+      "physicsProperties": {
+          "density": 1.0,
+          "friction": 0.3
+      },
+      "moveImpulse": 0.0075,
+      "decisionFrequencySec": 1.0,
+      "maxSpeed": 5,
+      "alienTurnVelocityDecrement": 1,
+      "hp": 100
+    },
+    {
+      "type" :  "Game1.AlienDefinition",
+      "name": "Alien5",
+      "textureName": "sprites\\ships\\alien5-transparent",
+      "scale": 0.25,
+      "physicsProperties": {
+          "density": 1.0,
+          "friction": 0.3
+      },
+      "moveImpulse": 0.0075,
+      "decisionFrequencySec": 1.0,
+      "maxSpeed": 5,
+      "alienTurnVelocityDecrement": 1,
+      "hp": 100
+    },
+    {
+      "type" :  "Game1.AlienDefinition",
+      "name": "Alien6",
+      "textureName": "sprites\\ships\\alien6-transparent",
+      "scale": 0.25,
+      "physicsProperties": {
+          "density": 1.0,
+          "friction": 0.3
+      },
+      "moveImpulse": 0.0075,
+      "decisionFrequencySec": 1.0,
+      "maxSpeed": 5,
+      "alienTurnVelocityDecrement": 1,
+      "hp": 100
+    },
+    {
+      "type" :  "Game1.AlienDefinition",
+      "name": "Alien7",
+      "textureName": "sprites\\ships\\alien7-transparent",
+      "scale": 0.25,
+      "physicsProperties": {
+          "density": 1.0,
+          "friction": 0.3
+      },
+      "moveImpulse": 0.0075,
+      "decisionFrequencySec": 1.0,
+      "maxSpeed": 5,
+      "alienTurnVelocityDecrement": 1,
+      "hp": 100
+    },
+    {
+      "type" :  "Game1.AlienDefinition",
+      "name": "Alien8",
+      "textureName": "sprites\\ships\\alien8-transparent",
+      "scale": 0.25,
+      "physicsProperties": {
+          "density": 1.0,
+          "friction": 0.3
+      },
+      "moveImpulse": 0.0075,
+      "decisionFrequencySec": 1.0,
+      "maxSpeed": 5,
+      "alienTurnVelocityDecrement": 1,
+      "hp": 100
+    },
+  {
+    "type": "Game1.Weapons.WeaponDefinition",
+    "name": "GreenLaser-small",
+    "spriteSheet": "sprites\\weapons\\lasers-transparent",
+    "xCoordinate": 22,
+    "yCoordinate": 42,
+    "physicsProperties": {
+      "density": 0.6,
+      "friction": 1.0,
+      "widthPixels": 10,
+      "heightPixels": 10
+    },
+    "velocity": 15,
+    "damage": 2,
+    "maxDistance": 2
+  },
+  {
+    "type": "Game1.Weapons.WeaponDefinition",
+    "name": "PurpleLaser-small",
+    "spriteSheet": "sprites\\weapons\\lasers-transparent",
+    "xCoordinate": 101,
+    "yCoordinate": 46,
+    "physicsProperties": {
+      "density": 0.6,
+      "friction": 1.0,
+      "widthPixels": 10,
+      "heightPixels": 10
+    },
+    "velocity": 5,
+    "damage": 2,
+    "maxDistance": 2
+  },
+  {
+    "type": "Game1.Weapons.WeaponDefinition",
+    "name": "YellowLaser-small",
+    "spriteSheet": "sprites\\weapons\\lasers-transparent",
+    "xCoordinate": 187,
+    "yCoordinate": 43,
+    "physicsProperties": {
+      "density": 0.6,
+      "friction": 1.0,
+      "widthPixels": 10,
+      "heightPixels": 10
+    },
+    "velocity": 5,
+    "damage": 2,
+    "maxDistance": 2
+  },
+  {
+    "type": "Game1.Weapons.WeaponDefinition",
+    "name": "RedLaser-small",
+    "spriteSheet": "sprites\\weapons\\lasers-transparent",
+    "xCoordinate": 21,
+    "yCoordinate": 157,
+    "physicsProperties": {
+      "density": 0.6,
+      "friction": 1.0,
+      "widthPixels": 10,
+      "heightPixels": 10
+    },
+    "velocity": 5,
+    "damage": 2,
+    "maxDistance": 2
+  },
+  {
+    "type": "Game1.Weapons.WeaponDefinition",
+    "name": "TealLaser-small",
+    "spriteSheet": "sprites\\weapons\\lasers-transparent",
+    "xCoordinate": 102,
+    "yCoordinate": 152,
+    "physicsProperties": {
+      "density": 0.6,
+      "friction": 1.0,
+      "widthPixels": 10,
+      "heightPixels": 10
+    },
+    "velocity": 5,
+    "damage": 2,
+    "maxDistance": 2
+  },
+  {
+    "type": "Game1.Weapons.WeaponDefinition",
+    "name": "BlueLaser-small",
+    "spriteSheet": "sprites\\weapons\\lasers-transparent",
+    "xCoordinate": 188,
+    "yCoordinate": 150,
+    "physicsProperties": {
+      "density": 0.6,
+      "friction": 1.0,
+      "widthPixels": 10,
+      "heightPixels": 10
+    },
+    "velocity": 5,
+    "damage": 2,
+    "maxDistance": 2
+  }
+]
